@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", sans-serif;
+}
+
+
+.hero {
+    border-style: solid;
+    border-color: white;
+    border-width: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto 0;
+    background-image: url(https://apod.nasa.gov/apod/image/2208/M16_final_1024.jpg);
+    height: 450px;
+    width: 850px;
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-size: 50px;
+}
+
+
+.title-container {
+    display: flex;
+}
+
+.title {
+    color: white;
+    margin: auto;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+.contactForm {font-weight: bolder;
+    background-color: #E6E6E6;
+    display: flex;
+    gap: 20px;
+    width: 850px;
+    height: 324px;
+    margin: 20px auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin-top: 30px;
+}
+
+.sub-title {
+    font-size: 17px;
+    margin: 20px 20px 0;
+}
+
+.content {
+    color: #6F6F6F;
+    font-size: 12px;
+    padding-left: 0;
+    margin: 20px;
+
+}
+
+
+.list-item {
+    list-style-type: none;
+    padding: 0;
+    line-height: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+.input {
+    width: 230px;
+    border-style: none;
+    margin: 3px 0 10px;
+    padding: 0;
+}
+
+.name {
+    height: 20px;
+}
+
+.message {
+    resize: none;
+}
+
+.btn {
+    background-color: #636262;
+    border-style: none;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn:active {
+    background-color: white;
+    color: black;
+    transition: .2s;
+}
