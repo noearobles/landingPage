@@ -33,7 +33,7 @@ body {
 }
 
 .contactForm {font-weight: bolder;
-    background-color: #E6E6E6;
+    background-color: #e7e1e1;
     display: flex;
     gap: 20px;
     width: 850px;
@@ -48,7 +48,7 @@ body {
     margin-top: 30px;
 }
 
-.sub-title {
+.columnTitle {
     font-size: 17px;
     margin: 20px 20px 0;
 }
@@ -70,7 +70,7 @@ body {
 
 .link {
     text-decoration: none;
-    color: #6F6F6F;
+    color: #716f6f;
 }
 
 .input {
@@ -89,7 +89,7 @@ body {
 }
 
 .btn {
-    background-color: #636262;
+    background-color: #727070;
     border-style: none;
     padding: 5px 15px;
     color: white;
